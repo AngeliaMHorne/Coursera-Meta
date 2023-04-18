@@ -1,0 +1,138 @@
+.ll__highlights {
+    display: flex;
+    justify-content: center;
+}
+
+.ll__highlights-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    /*flex-direction: column;
+    margin-right: 5rem;*/
+}
+
+.ll__highlights-content h2 {
+    font-family: var(--font-family2);
+    color:#000000;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 21.04px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.ll__highlights-content button {
+    cursor: pointer;
+    background-color: var(--color-yellow);
+    color: var(--color-green);
+    font-family: var(--font-family2);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.04px;
+    text-align: center;
+    min-width: 175px;
+    min-height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.ll__highlights-content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.ll__highlights-content-cards #card1 {
+    margin: .5rem;
+}
+
+.ll__highlights-content-cards #card2 {
+    margin: .5rem;
+}
+
+.ll__highlights-content-cards #card3 {
+    margin: .5rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .ll__highlights {
+        flex-direction: column;
+    }
+
+    .ll__highlights h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .ll__highlights button {
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 1rem;
+    }
+
+    .ll__highlights-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ll__highlights {
+        flex-direction: column;
+    }
+
+    .ll__highlights h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .ll__highlights button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ll__highlights-content-cards {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ll__highlights-content-cards img {
+        width: 95%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .ll__highlights {
+        flex-direction: column;
+    }
+
+    .ll__highlights h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ll__highlights-content button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .ll__highlights-content-cards {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ll__highlights-content-cards img {
+        width: 95%;
+        height: 100%;
+    }
+}
