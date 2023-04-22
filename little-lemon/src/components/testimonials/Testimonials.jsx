@@ -8,14 +8,14 @@ import test4 from '../../assets/test4.png';
 const Testimonials = () => {
   return (
     <>
-      <div className="ll_testimonials section__margin" id='testimonials'>
-        <div className="ll_testimonials-content">
+      <div className="testimonials section_container">
+        <div className="testimonials-content">
           <h3>Testimonials</h3>
-          <div className="ll__testimonials-content-images" id='testimages'>          
-            <img src={test1} alt="Testimonial 1" id="test1" />
-            <img src={test2} alt="Testimonial 2" id="test2" />
-            <img src={test3} alt="Testimonial 3" id="test3" />
-            <img src={test4} alt="Testimonial 4" id="test4" />
+          <div className="testimonials-content-images">          
+            <img src={test1} alt="Testimonial 1"/>
+            <img src={test2} alt="Testimonial 2"/>
+            <img src={test3} alt="Testimonial 3"/>
+            <img src={test4} alt="Testimonial 4"/>
           </div>
         </div>
       </div>

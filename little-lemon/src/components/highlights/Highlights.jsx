@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './highlights.css';
 import card1 from '../../assets/Card.png';
 import card2 from '../../assets/Card-1.png';
@@ -10,7 +11,7 @@ const Highlights = () => {
     <div className="ll__highlights section__padding" id='highlights'>
       <div className="ll__highlights-content">
       <h2>This Week's Specials</h2>
-      <button type='button'><a href="#menu">Online Menu</a></button>
+      <Link to="/menu"><button type='button'>Online Menu</button></Link> 
       </div>
     </div>
     <div className="ll__highlights-content-cards">
