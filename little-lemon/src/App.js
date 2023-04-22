@@ -4,23 +4,6 @@ import {Reservations, Menu, Login, Main, Footer, About, Home} from "./containers
 import { Navbar } from './components';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-/*const App = () => {
-  return (
-  <div className="App">
-    <div className="color__bg">
-      <Navbar />
-    </div>
-    <div className="color__bg__box">
-      <Header />
-    </div>
-    <Main />
-    <About />
-    <Footer />
-  </div>
-  )
-}*/
-
-
 function App() {
   return (
     <BrowserRouter>

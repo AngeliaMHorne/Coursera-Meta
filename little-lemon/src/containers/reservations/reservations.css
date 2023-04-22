@@ -1,0 +1,124 @@
+.Reservations {
+    display: flex;
+    background-color: #495E57;
+    flex-direction: column;
+    align-items: center;
+    border-style: none;
+    border: none;
+}
+
+.restitle h2 {
+    display: flex;
+    font-family: var(--font-family2);
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 21.04px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.Reservations form {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: none;
+    border: none;
+    border-color: none;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.Reservations label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: var(--font-family1);
+    font-size: 16px;
+    line-height: 21.04px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+    color: #495E57;
+}
+
+.Field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    min-width: 250px;
+    border: none;
+}
+
+.Field input {
+    min-width: 200px;
+    min-height: 24px;
+    background-color: #495E57;
+    color: var(--color-yellow);
+    border: none;
+}
+
+.Field ::placeholder {
+    min-width: 200px;
+    background-color: #495E57;
+    color: var(--color-yellow);
+    padding-left: 5px;
+}
+
+.Field select {
+    min-width: 200px;
+    min-height: 24px;
+    background-color: #495E57;
+    color: var(--color-yellow);
+    border: none;
+}
+
+.reservebutton {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+
+.reservebutton button {
+    cursor: pointer;
+    background-color: var(--color-yellow);
+    color: var(--color-green);
+    font-family: var(--font-family2);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.04px;
+    text-align: center;
+    min-width: 175px;
+    min-height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.reservebutton :disabled {
+    background-color: var(--color-green);
+    color: grey;
+    font-family: var(--font-family2);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.04px;
+    text-align: center;
+    min-width: 175px;
+    min-height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+}
