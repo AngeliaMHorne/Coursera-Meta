@@ -11,7 +11,7 @@ const Highlights = () => {
     <div className="ll__highlights section__padding" id='highlights'>
       <div className="ll__highlights-content">
       <h2>This Week's Specials</h2>
-      <Link to="/menu"><button type='button'>Online Menu</button></Link> 
+      <Link to={`${process.env.PUBLIC_URL}/menu`}><button type='button'>Online Menu</button></Link> 
       </div>
     </div>
     <div className="ll__highlights-content-cards">

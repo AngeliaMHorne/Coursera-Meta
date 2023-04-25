@@ -10,7 +10,7 @@ const Header = () => {
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-        <Link to="/reservations"><button type='button'>Reserve a Table</button></Link> 
+        <Link to={`${process.env.PUBLIC_URL}/reservations`}><button type='button'>Reserve a Table</button></Link> 
       </div>
       <div className="header-image">
         <img src={foodserve} alt="Serving food" width="250px" />
