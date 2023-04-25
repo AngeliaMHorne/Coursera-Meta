@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import {Reservations, Menu, Login, Main, Footer, About, Home} from "./containers";
+import {Reservations, Menu, Login, Footer, About, Home} from "./containers";
 import { Navbar } from './components';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -9,15 +9,13 @@ function App() {
     <BrowserRouter>
       <div className="App">
        <Navbar />
-       <main>
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/reservations" element={<Reservations />} />
-          <Route path="/login" element={<Login />} />
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+          <Route path={`${process.env.PUBLIC_URL}/about`} element={<About />} />
+          <Route path={`${process.env.PUBLIC_URL}/menu`} element={<Menu />} />
+          <Route path={`${process.env.PUBLIC_URL}/reservations`} element={<Reservations />} />
+          <Route path={`${process.env.PUBLIC_URL}/login`} element={<Login />} />
         </Routes>
-      </main>
       <Footer />
       </div>
     </BrowserRouter>
